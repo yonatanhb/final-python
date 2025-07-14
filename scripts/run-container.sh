@@ -5,7 +5,7 @@ docker stop flask-app || true
 docker rm flask-app || true
 
 # Pull latest image from Docker Hub
-docker pull your-dockerhub-username/flask-restplus-app:latest
+docker pull yonatanhb/flask-restplus-app:latest
 
 # Run container
 docker run -d \
